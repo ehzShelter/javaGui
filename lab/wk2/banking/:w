@@ -26,20 +26,5 @@ public class MainClass {
         //
         // Account Object
         Account myAccount = new Account("Zawad", "15301422", 23000.0f);
-        System.out.println(myAccount.getBalance());
-
-        myAccount.deposit(333.0f);
-        System.out.println(myAccount.getBalance());
-
-        myAccount.withDraw(111.0f);
-        System.out.println(myAccount.getBalance());
-
-        myAccount.withDraw(33000.0f);
-
-        Account friendAccount = new Account("Abrar", "15201545", 100.0f);
-        myAccount.transferTo(friendAccount, 900.0f);
-        System.out.println(friendAccount.getBalance());
-
-        System.out.println(myAccount.getBalance());
     }
 }
